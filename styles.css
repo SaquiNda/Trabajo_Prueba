@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+body {
+    min-width: 100vh;
+    margin: 0;
+    background: linear-gradient(#c38bbf, #800080);
+}
+
 .content {
     position: relative;
     margin: auto;
@@ -13,41 +19,45 @@
 .rectangulo1 {
     height: 550px;
     width: 1000px;
-    background: #53A442;
+    background: linear-gradient(#4B316D, #301F45);
     position: relative;
     margin: 0 auto;
     border: 2px solid black;
     top: -650px;
+    border-radius: 20px;
 }
 
 .rectanguloizquierdo {
     height: 340px;
     width: 250px;
-    background: #165411;
+    background: #ffff;
     position: absolute;
     border: 2px solid black;
     top: 100px;
     left: 100px;
+    border-radius: 20px;
 }
 
 .rectangulocentro {
     height: 340px;
     width: 250px;
-    background: #165411;
+    background: #ffff;
     position: absolute;
     border: 2px solid black;
     top: 100px;
     left: 400px;
+    border-radius: 20px;
 }
 
 .rectanguloderecho {
     height: 340px;
     width: 250px;
-    background: #165411;
+    background: #ffff;
     position: absolute;
     border: 2px solid black;
     top: 100px;
     left: 700px;
+    border-radius: 20px;
 }
 
 .article {
@@ -59,15 +69,15 @@
 }
 
 article h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+article h2 {
     text-align: center;
 }
 
 .imagen {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    background: white;
-    border: 0px auto black;
-    background-image: url(imagen/07ba46e1-d06a-4087-a219-928b51c09ae6.jfif);
-    left: 500px;
+    position: relative;
+    left: 75px;
 }
