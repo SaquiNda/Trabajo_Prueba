@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+}
+
+.rectangulo1 {
+    height: 550px;
+    width: 1000px;
+    background: #53A442;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid black;
+    top: -650px;
+}
+
+.rectanguloizquierdo {
+    height: 340px;
+    width: 250px;
+    background: #165411;
+    position: absolute;
+    border: 2px solid black;
+    top: 100px;
+    left: 100px;
+}
+
+.rectangulocentro {
+    height: 340px;
+    width: 250px;
+    background: #165411;
+    position: absolute;
+    border: 2px solid black;
+    top: 100px;
+    left: 400px;
+}
+
+.rectanguloderecho {
+    height: 340px;
+    width: 250px;
+    background: #165411;
+    position: absolute;
+    border: 2px solid black;
+    top: 100px;
+    left: 700px;
+}
+
+.article {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+article h1 {
+    text-align: center;
+}
