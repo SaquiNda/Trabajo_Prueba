@@ -61,3 +61,13 @@
 article h1 {
     text-align: center;
 }
+
+.imagen {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: white;
+    border: 0px auto black;
+    background-image: url(imagen/07ba46e1-d06a-4087-a219-928b51c09ae6.jfif);
+    left: 500px;
+}
