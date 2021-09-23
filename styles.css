@@ -76,19 +76,25 @@ article h2 {
     text-align: center;
 }
 
-.imagenizquierda {
+.stykerizquierdo {
     position: relative;
-    left: 75px;
+    left: 85px;
+    width: 80px;
+    height: 100px;
 }
 
-.imagencentro {
+.stykercentro {
     position: relative;
-    left: 115px;
+    left: 105px;
     top: 25px;
+    width: 90px;
+    height: 100px;
 }
 
-.imagenderecha {
+.stykerderecho {
     position: relative;
     left: 90px;
     top: 25px;
+    width: 80px;
+    height: 100px;
 }
