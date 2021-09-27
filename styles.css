@@ -98,3 +98,18 @@ article h2 {
     width: 80px;
     height: 100px;
 }
+
+.rectanguloizquierdo:hover {
+    background: #979690;
+    transform: translateY(-90px);
+}
+
+.rectangulocentro:hover {
+    background: #979690;
+    transform: translateY(-90px);
+}
+
+.rectanguloderecho:hover {
+    background: #979690;
+    transform: translateY(-90px);
+}
