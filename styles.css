@@ -19,11 +19,12 @@ body {
 .rectangulo1 {
     height: 550px;
     width: 1000px;
+    max-width: 100%;
     background: linear-gradient(#4B316D, #301F45);
     position: relative;
     margin: 0 auto;
     border: 2px solid black;
-    top: -650px;
+    top: -500px;
     border-radius: 15px;
 }
 
@@ -99,6 +100,9 @@ article h2 {
     height: 100px;
 }
 
+
+/*Cuando pasa el maus se realsa*/
+
 .rectanguloizquierdo:hover {
     background: #979690;
     transform: translateY(-90px);
@@ -113,3 +117,30 @@ article h2 {
     background: #979690;
     transform: translateY(-90px);
 }
+
+
+/*Respond*/
+
+@media screen and (max-width:800px) {
+    .rectanguloizquierdo {
+        position: relative;
+        left: 50px;
+    }
+    .rectangulocentro {
+        position: relative;
+        left: 50px;
+        top: 120px;
+        width: 250px;
+    }
+    .rectanguloderecho {
+        position: relative;
+        left: 50px;
+        top: 150px;
+    }
+    .rectangulo1 {
+        height: 1500px;
+    }
+}
+
+
+/*Final del Respond*/
